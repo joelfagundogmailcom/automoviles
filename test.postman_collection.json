@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "b7d99a9e-76d2-49ac-8755-a6f5f9043237",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8888/public/api/inventario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/public/api/inventario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"public",
+						"api",
+						"inventario"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/public/api/inventario Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/public/api/inventario?modelo=456&tipo=sedan&motor=bueno",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"public",
+						"api",
+						"inventario"
+					],
+					"query": [
+						{
+							"key": "modelo",
+							"value": "456"
+						},
+						{
+							"key": "tipo",
+							"value": "sedan"
+						},
+						{
+							"key": "motor",
+							"value": "bueno"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/public/api/inventario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/public/api/inventario/2?modelo=1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"public",
+						"api",
+						"inventario",
+						"2"
+					],
+					"query": [
+						{
+							"key": "modelo",
+							"value": "1234"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/public/api/inventario Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/public/api/inventario/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"public",
+						"api",
+						"inventario",
+						"2"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888/public/api/inventario Copy 3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/public/api/inventario/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"public",
+						"api",
+						"inventario",
+						"2"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
